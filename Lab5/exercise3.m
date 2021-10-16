@@ -1,6 +1,8 @@
 clc
 close all
 clear all
+#Take any of your grey scale photo and blur it with weighted average filter. 
+#Compare amount of blurring with the standard box filter of the same size
 a=imread("testimage2.jpg");
 a=rgb2gray(a);
 a=imresize(a,[600,600]);
